@@ -12,7 +12,6 @@ public class RockPaperSissorsEvaluator {
     protected static final HashMap<String, String> losingMoves = new HashMap<>();
     protected static final HashMap<String, String> winningMoves = new HashMap<>();
 
-    //theres a typo on scissors
     public RockPaperSissorsEvaluator() {
         String[][] losingMovesArr = new String[][] {{ ROCK, SCISSOR }, { PAPER, ROCK }, { SCISSOR, PAPER }};
         String[][] winningMovesArr = new String[][] { { ROCK, PAPER }, { PAPER, SCISSOR }, { SCISSOR, ROCK }};
